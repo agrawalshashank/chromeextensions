@@ -1,0 +1,24 @@
+{
+    "name":"shashankADBlocker",
+    "version":"0.0.0.3",
+    "manifest_version":2,
+    "description":"It will block the ads",
+    "browser_action": { 
+        "default_icon" :  {
+        "16":"icons/favicon-16.png",
+        "32": "icons/favicon-32.png",
+        "48": "icons/favicon-48.png",
+        "128": "icons/favicon-128.png"
+        }
+    },
+    "icons": {
+        "16":"icons/favicon-16.png",
+        "32": "icons/favicon-32.png",
+        "48": "icons/favicon-48.png",
+        "128": "icons/favicon-128.png"
+      },
+    "permissions":["webRequest", "webRequestBlocking","<all_urls>"],
+    "background":{
+    "scripts":["background.js"]
+    }
+}
